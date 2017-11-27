@@ -1,0 +1,45 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+
+
+.wrapper{
+    height: 1200px;
+    background: url('../images/stonehaven.png');
+    overflow: hidden;
+    text-align: center;
+}
+
+
+button , .popUp{
+    position: absolute;
+}
+.popUp1{
+    margin:10px 10px;
+    padding: 20px 20px;
+    left:10%;
+}
+.popUp2{
+    margin:10px 10px;
+    padding: 20px 20px;
+    left:30%;
+}
+.overlay{
+    background: #ccc;
+    height: inherit;
+    
+}
+.popUp{
+    width: 500px;
+    height: 300px;
+    background: brown;
+    top:10%;
+    left:30%;
+}
+
+.popUp , .overlay{
+    display: none;
+}
